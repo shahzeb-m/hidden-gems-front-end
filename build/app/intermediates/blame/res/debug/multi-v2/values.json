@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\shahzeb\\Documents\\f_test\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\shahzeb\\Documents\\hidden-gems-front-end\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\shahzeb\\Documents\\f_test\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\shahzeb\\Documents\\hidden-gems-front-end\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
