@@ -5,21 +5,12 @@ import 'package:flutter_multiselect/flutter_multiselect.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  // This widget is the root of the application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter login UI',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
         primarySwatch: Colors.green,
       ),
       home: MyHomePage(title: 'Hidden Gems'),
@@ -27,17 +18,9 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// Login screen
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
 
   final String title;
 
@@ -50,13 +33,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
-
     final emailField = TextField(
       obscureText: false,
       style: style,
@@ -117,8 +93,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
 
-
-
     return Scaffold(
       body: Center(
           child: Container(
@@ -153,10 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-// INTERESTS
-// INTERESTS
-// INTERESTS
-
+// Interests screen
 class MyInterestsPage extends StatefulWidget {
   MyInterestsPage({Key key, this.title}) : super(key: key);
 
@@ -264,23 +235,10 @@ class _MyInterestsPage extends State<MyInterestsPage> {
   }
 }
 
-// NEW SCREEN
-// NEW SCREEN
-// NEW SCREEN
-// NEW SCREEN
-// NEW SCREEN
+// Sign up screen
 
 class MySignUpPage extends StatefulWidget {
   MySignUpPage({Key key, this.title}) : super(key: key);
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
 
   final String title;
 
@@ -307,13 +265,6 @@ class _MySignUpPageState extends State<MySignUpPage> {
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
-
     final firstNameField = TextField(
       obscureText: false,
       style: style,
